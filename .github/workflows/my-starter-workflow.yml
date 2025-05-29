@@ -20,5 +20,5 @@ jobs:
       matrix:
         nodeversion: [14, 16, 18, 20]
     uses: ./.github/workflows/reusable-workflow.yml
-      with:
+    with:
         node: ${{ matrix.nodeversion }}
